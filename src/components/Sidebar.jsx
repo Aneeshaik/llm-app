@@ -5,7 +5,7 @@ import threeLines from "../assets/images/three-lines.png"
 
 const Sidebar = () => {
     return (
-        <div className="inline-block min-w-max m-6 bg-white rounded-3xl p-4 text-left">
+        <div className="inline-block min-w-max m-6 mr-0 border bg-white border-gray-200 rounded-3xl p-4 text-left">
             <h1 className="text-xl mb-3 font-semibold">Components</h1>
             <hr />
             <p className="my-4 opacity-50">Drag and Drop</p>
@@ -19,7 +19,7 @@ const Sidebar = () => {
                 </div> 
                 <div className="border-2 p-[6px] rounded-lg w-52 flex justify-between items-center">
                     <div className="flex space-x-2 items-center">
-                        <img src={llmLogo} alt="LLM Logo" />
+                        <img className="h-[18px]" src={llmLogo} alt="LLM Logo" />
                         <li>LLM Engine</li>
                     </div>
                     <img src={threeLines} alt="" />
